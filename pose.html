@@ -32,7 +32,9 @@
     <div id="loading" style="display: none;">
         Loading the model...
     </div>
-
+	<div class="logo-wrapper" style="text-align:center;">
+		<img class="logo" src="./logo/logo.png"  width="40" height="40">
+	</div>
     <div id="main" style="display: block;">
         <video id="video" playsinline="" style=" -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
@@ -46,9 +48,9 @@
     <div class="footer">
         <div class="footer-text">
             <p>
-                PoseNet runs with either a <strong>single-pose</strong> or <strong>multi-pose</strong> detection algorithm. The single person pose detector is faster and more accurate but requires only one subject present in the image.
+                PoseNet 使用 <strong>single-pose</strong> 或者 <strong>multi-pose</strong> 识别算法. 单人pose识别器快而准确但是要求前提是画面内只有一个人.
                 <br>
-                <br> The <strong>output stride</strong> and <strong>image scale factor</strong> have the largest effects on accuracy/speed. A <i>higher</i> output stride results in lower accuracy but higher speed. A <i>higher</i> image scale factor results in higher accuracy but lower speed.
+                <br> <strong>outputstride</strong> 设定值和 <strong>image scale factor</strong> 设定值是最影响精准度和运行速度的.  <i>更高的</i> outputstride设定值会使得识别结果不精确但是识别速度会提高.  <i>更高的</i> image scale factor设定值会使得识别结果更加精确但是识别速度会降低.
             </p>
         </div>
     </div>
